@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.first-feature {
+  height: 100vh;
+  background-image: url("./images/colour-person-stars.jpeg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.second-feature {
+  height: 100vh;
+  background-image: url("./images/night-sky.jpeg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.third-feature {
+  height: 100vh;
+  background-image: url("./images/mountain-stars.jpeg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.title {
+  position: relative;
+  top: 400px;
+  left: 50px;
+  color: white;
+}
+
+.nav-container {
+  display: flex;
+  gap: 40px;
+  padding: 30px;
+  background-color: transparent;
+  position: fixed;
+  color: white;
+}
+
+nav {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.feature-h1 {
+  font-size: 40px;
+  margin: 10px 0px 25px 0px;
+}
+
+.infoBtn {
+  background-color: transparent;
+  border: 3px solid white;
+  padding: 15px 100px 15px 30px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.infoBtn:hover {
+  color: black;
+  background-color: white;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  color: grey;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
