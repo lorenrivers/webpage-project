@@ -101,3 +101,30 @@ footer {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
+@media (max-width: 600px) {
+  nav {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .first-feature {
+    width: 100vw;
+  }
+  .second-feature {
+    width: 100vw;
+  }
+  .third-feature {
+    width: 100vw;
+  }
+  .feature-h1 {
+    font-size: 35px;
+    margin-bottom: 35px;
+  }
+  .feature-h2 {
+    font-size: 20px;
+  }
+  .infoBtn {
+    padding: 10px 66px 10px 20px;
+    margin-top: 15px;
+  }
+}
